@@ -1,0 +1,31 @@
+.playground{
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-cont{
+  min-height:69vh;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+.editor{
+  width:100%;
+}
+
+li {
+  list-style: none;
+}
+
+.filenode {
+  color: rgb(122, 122, 122);
+  cursor:pointer;
+}
+
+.foldernode{
+  cursor:default
+}
+#term-cont{ 
+  max-height: 31vh;
+}
